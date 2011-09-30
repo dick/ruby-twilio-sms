@@ -2,23 +2,22 @@
 
   <!-- Main hero unit for a primary marketing message or call to action --> 
   <div class="hero-unit"> 
-    <h1>Welcome!</h1> 
-    <p>Vestibulum id ligula porta felis euismod semper. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p> 
-    <p><a class="btn primary large">Learn more &raquo;</a></p> 
+    <h1>Hello, Twilio!</h1> 
+    <p>Enter your phone number and a message below to send your first sms!</p> 
+	<div class="clearfix">
+		<div class = "well">
+			<form class ="input" action ="/sms" method ="post">
+				<label for="sms"><b>SMS Message:</b></label>
+				<input class="xlarge" id="sms" name="sms" size="140" type="text" />
+				<br /><br />
+				<label for="sms"><b>Phone Number:</b></label>
+				<input class="xlarge" id="phone" name="phone" size="10" type="text" />
+				<br /><br />
+				<input class="btn large primary" type="submit" value="Text Me!"></input>
+			</form>
+		</div>
+	</div> 
   </div> 
-
-  <!-- Example row of columns --> 
-  <div class="row"> 
-    <div class="span11"> 
-      <h2>App</h2> 
-      <p>Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p> 
-      <p><a class="btn" href="#">View details &raquo;</a></p> 
-    </div> 
-    <div class="span5"> 
-      <h2>Code</h2> 
-       <p><code>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </code></p> 
-      <p><a class="btn" href="#">Link to github &raquo;</a></p> 
-   </div> 
 
 
 </div>
