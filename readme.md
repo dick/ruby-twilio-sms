@@ -9,7 +9,7 @@ Steps:
 
 1) Clone the repo
 
-2) Set your environment variables. See here for more info: http://devcenter.heroku.com/articles/config-vars
+2) Set your environment variables so that the constants on the right below are set in either your Heroku environment or your local ~/.bashrc file. See here for more info: http://devcenter.heroku.com/articles/config-vars
 
 API_VERSION = '2010-04-01'
 
